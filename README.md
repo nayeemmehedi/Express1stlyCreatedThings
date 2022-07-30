@@ -1,9 +1,9 @@
+
 # Express1stlyCreatedThings
 
 const port = 5000;
-
-
-
+.
+.
 
 const express = require("express");
 var cors = require("cors");
@@ -14,7 +14,9 @@ app.use(express.json());
 
 
 
-
+.
+.
+.
 
 
 app.get("/", (req, res) => {
@@ -22,7 +24,10 @@ app.get("/", (req, res) => {
 });
 
 
-
+.
+.
+.
+.
 
 
 
@@ -31,33 +36,6 @@ app.get("/user", (req, res) => {
   console.log("query", req.query);
   res.send(dv);
 });
-
-
-
-
-
-
-#ROUTER EXPRESS 😝
-
-
-😮‍💨 const adminRouter = express.Router()
-
-r main e amra krtm -> 
-
-😮‍💨 const app = express()
-
-# last e 🥇
-😮‍💨 module.exports = adminRouter
-
-# main e router implement 🥈
-
-😮‍💨 const adminRouter = require('./adminRoute')
-
-😮‍💨 app.use('/admin',adminRouter)
-
-
-
-
 
 
 app.get("/user/:id", (req, res) => {
@@ -76,11 +54,35 @@ app.get("/user/:id", (req, res) => {
 
 
 
-
+.
+.
+.
 
 
 
 app.listen(port, () => {
   console.log("port running");
 });
+
+.
+.
+.
+
+# ROUTER EXPRESS 😝
+
+😮‍ const express = require('express') 
+
+😮‍💨 const adminRouter = express.Router()
+
+# last e 🥇
+😮‍💨 module.exports = adminRouter
+
+# main e router implement 🥈
+
+😮‍💨 const adminRouter = require('./adminRoute')
+
+😮‍💨 app.use('/admin',adminRouter)
+
+
+
 
