@@ -37,6 +37,29 @@ app.get("/user", (req, res) => {
 
 
 
+#ROUTER EXPRESS 😝
+
+
+😮‍💨 const adminRouter = express.Router()
+
+r main e amra krtm -> 
+
+😮‍💨 const app = express()
+
+# last e 🥇
+😮‍💨 module.exports = adminRouter
+
+# main e router implement 🥈
+
+😮‍💨 const adminRouter = require('./adminRoute')
+
+😮‍💨 app.use('/admin',adminRouter)
+
+
+
+
+
+
 app.get("/user/:id", (req, res) => {
   let id = +req.params.id;
   console.log(typeof id);
