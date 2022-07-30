@@ -2,8 +2,8 @@
 # Express1stlyCreatedThings
 
 const port = 5000;
-.
-.
+
+
 
 const express = require("express");
 var cors = require("cors");
@@ -14,20 +14,12 @@ app.use(express.json());
 
 
 
-.
-.
-.
 
 
 app.get("/", (req, res) => {
   res.send(dv);
 });
 
-
-.
-.
-.
-.
 
 
 
@@ -54,19 +46,12 @@ app.get("/user/:id", (req, res) => {
 
 
 
-.
-.
-.
-
-
 
 app.listen(port, () => {
   console.log("port running");
 });
 
-.
-.
-.
+
 
 # ROUTER EXPRESS 😝
 
@@ -82,6 +67,9 @@ app.listen(port, () => {
 😮‍💨 const adminRouter = require('./adminRoute')
 
 😮‍💨 app.use('/admin',adminRouter)
+
+
+#### router finish
 
 
 
